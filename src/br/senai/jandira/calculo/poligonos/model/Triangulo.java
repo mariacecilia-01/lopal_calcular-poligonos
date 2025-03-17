@@ -2,15 +2,24 @@ package br.senai.jandira.calculo.poligonos.model;
 
 public class Triangulo {
 	
-	private double altura;
+	private double ladoA;
+	private double ladoB;
 	private double base;
 	
-	public void setAltura (double altura) {
-		this.altura = altura;
+	public void setLadoA(double ladoA) {
+		this.ladoA = ladoA;
 	}
 	
-	public double getAltura () {
-		return altura;
+	public double getLadoA() {
+		return ladoA;
+	}
+	
+	public void setLadoB(double ladoB) {
+		this.ladoB = ladoB;
+	}
+	
+	public double getLadoB() {
+		return ladoB;
 	}
 	
 	public void setBase (double base) {
