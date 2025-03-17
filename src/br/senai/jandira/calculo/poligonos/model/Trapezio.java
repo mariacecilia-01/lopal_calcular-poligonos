@@ -35,5 +35,13 @@ public class Trapezio {
 		return area;
 	}
 	
+	public void exibirDados() {
+		System.out.println("====================");
+		System.out.println("TRAPÉZIO");
+		System.out.println("--------------------");
+		System.out.printf("Área: %s\n", calcularArea());
+		System.out.println("---------------------");
+		System.out.println("====================");
+	}
 	
 }

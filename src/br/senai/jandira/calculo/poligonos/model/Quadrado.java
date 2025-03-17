@@ -39,5 +39,15 @@ public class Quadrado {
 		double perimetro = 2 * (base + altura);
 		return perimetro;
 	}
+	
+	public void exibirDados() {
+		System.out.println("====================");
+		System.out.println("QUADRADO");
+		System.out.println("--------------------");
+		System.out.printf("Área: %s\n", calcularArea());
+		System.out.println("---------------------");
+		System.out.printf("Perimetro: %s\n", calcularPerimetro());
+		System.out.println("====================");
+	}
 
 }
