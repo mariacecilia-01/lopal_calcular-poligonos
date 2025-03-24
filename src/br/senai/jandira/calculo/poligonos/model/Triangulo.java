@@ -31,7 +31,7 @@ public class Triangulo {
 	}
 	
 	public double calcularArea() {
-		double area = base * altura / 2;
+		double area = base * (ladoA + ladoB) / 2;
 		return area;
 	}
 	
